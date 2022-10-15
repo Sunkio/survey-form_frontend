@@ -1,45 +1,46 @@
 <!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Survey Form</title>
-    <link rel="stylesheet" href="css/styles.css">
-</head>
-<body>
-    <h1 id="title">Survey Form</h1>
-    <p id="description">Thank you for taking the time to help us improve the platform</p>
-    <form id="survey-form">
-        <label id="name-label">Name:
-            <input id="name" type="text" placeholder="Your Name"required>
-        </label>
-        <label id="email-label">Email:
-            <input id="email" type="email" placeholder="jane.doe@email-provider.com" required>
-        </label>
-        <label id="number-label">Number:
-            <input id="number" type="number" min="0" max="10" placeholder="between 0 and 10">
-        </label>
-        <select id="dropdown">
-            <option value="option1">Option 1</option>
-            <option value="option2">Option 2</option>
-        </select>
-        <label for="radio-1"></label><input id="radio-1" name="radio-set" type="radio" value="radio-1">
-         Radio 1</label>
-        <label for="radio-2"></label><input id="radio-2" name="radio-set" type="radio" value="radio-2">
-         Radio 2</label>
-        <input type="radio" id="radio-3" name="radio-set" value="radio-3">
-        <label for="radio-3"> Radio 3</label>
-        <label for="checkbox-1"><input type="checkbox" id="checkbox-1" name="checkbox-set" value="checkbox-1">
-         Checkbox 1</label>
-        <label for="checkbox-2"></label><input type="checkbox" id="checkbox-2" name="checkbox-set" value="checkbox-2">
-         Checkbox 2</label>
-        <label for="checkbox-3"></label><input type="checkbox" id="checkbox-3" name="checkbox-set" value="checkbox-3">
-         Checkbox 3</label>
-        <textarea id="textarea" placeholder="Enter your message here..."></textarea>
-        <button type="submit" id="submit">Submit</button>
-    </form>
-
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport"
+              content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+        <meta name="description" content="A survey form">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Survey Form</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <header class="header">
+            <h1 id="title" class="bold">Survey Form</h1>
+            <p id="description">Thank you for taking the time to help us improve the platform</p>
+        </header>
+        <main>
+            <form id="survey-form" class="container">
+                <label id="name-label" for="name">Name</label>
+                <input id="name" class="input sm" type="text" placeholder="Enter your name" required>
+                <label id="email-label" for="email">Email</label>
+                <input id="email" class="input sm" type="email" placeholder="Enter you email" required>
+                <label id="number-label" for="number">Age <span class="sm">(optional)</span></label>
+                <input id="number" class="input sm" type="number" min="0" max="10" placeholder="Enter your age">
+                <select id="dropdown" class="option sm">
+                    <option value="option1">Option 1</option>
+                    <option value="option2">Option 2</option>
+                </select>
+                <label for="radio-1"><input id="radio-1" name="radio-set" type="radio" value="radio-1">
+                 Radio 1</label>
+                <label for="radio-2"><input id="radio-2" name="radio-set" type="radio" value="radio-2">
+                 Radio 2</label>
+                <label for="radio-3"><input type="radio" id="radio-3" name="radio-set" value="radio-3"> Radio 3</label>
+                <label for="checkbox-1"><input type="checkbox" id="checkbox-1" name="checkbox-set" value="checkbox-1">
+                 Checkbox 1</label>
+                <label for="checkbox-2"><input type="checkbox" id="checkbox-2" name="checkbox-set" value="checkbox-2">
+                 Checkbox 2</label>
+                <label for="checkbox-3"><input type="checkbox" id="checkbox-3" name="checkbox-set" value="checkbox-3">
+                 Checkbox 3</label>
+                <textarea id="textarea" class="sm" placeholder="Enter your message here..."></textarea>
+                <button type="submit" id="submit" class="button">Submit</button>
+            </form>
+            <p class="hidden">Thank you for your help!</p>
+        </main>
+    </body>
 </html>

@@ -1,3 +1,68 @@
+:root {
+    --system-ui: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
 * {
     box-sizing: border-box;
+}
+
+html {
+    font-family: var(--system-ui);
+    font-size: 18px;
+    line-height: 1.5;
+    color: #251c2f;
+    min-height: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 10px;
+    background-image: linear-gradient(#ff0f7b, #f89b29);
+}
+
+
+#description, #title {
+    padding: 0 10px;
+    text-align: center;
+}
+
+#survey-form {
+    border-radius: 10px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+    margin: 0 auto;
+    max-width: 700px;
+    padding: 20px;
+}
+
+.sm {
+    font-size: 0.8em;
+}
+
+.bold {
+    font-weight: 800;
+}
+
+.input, .option, #textarea, #submit {
+    border: 1px solid #251c2f;
+    border-radius: 5px;
+    display: block;
+    margin: 10px 0;
+    padding: 10px;
+    width: 100%;
+}
+
+.button {
+    font-size: 1rem;
+    background-image: linear-gradient(to bottom right, #1DF547, #fff);
+}
+
+.hidden {
+    display: none;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 10px 0;
 }
