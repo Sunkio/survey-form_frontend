@@ -37,11 +37,14 @@ body {
     -webkit-backdrop-filter: blur(4px);
 }
 
+/* Added for Safari & DuckDuckGo on iPhone but still not 100% correct */
+/*
 #dropdown {
     color: #251c2f;
     accent-color: #FF0F7BFF;
     border-color: #ff0f7b;
 }
+*/
 
 #checkbox-7:checked ~ #specify {
     display: block;
