@@ -50,7 +50,9 @@ body {
     padding: 10px;
     width: 100%;
 }
-
+.input:focus, .option:focus, #textarea:focus {
+    outline: #f89b29 auto 2px;
+}
 .button {
     font-size: 1rem;
     background-image: linear-gradient(to bottom right, #1DF547, #fff);

@@ -12,35 +12,57 @@
     <body>
         <header class="header">
             <h1 id="title" class="bold">Survey Form</h1>
-            <p id="description">Thank you for taking the time to help us improve the platform</p>
+            <p id="description">Thank you for taking the time to help us improve this platform!</p>
         </header>
         <main>
             <form id="survey-form" class="container">
                 <label id="name-label" for="name">Name</label>
                 <input id="name" class="input sm" type="text" placeholder="Enter your name" required>
                 <label id="email-label" for="email">Email</label>
-                <input id="email" class="input sm" type="email" placeholder="Enter you email" required>
+                <input id="email" class="input sm" type="email" placeholder="Enter your email" required>
                 <label id="number-label" for="number">Age <span class="sm">(optional)</span></label>
-                <input id="number" class="input sm" type="number" min="0" max="10" placeholder="Enter your age">
+                <input id="number" class="input sm" type="number" min="0" max="106" placeholder="Enter your age">
+                <label id="dropdown-label" for="dropdown">Which option describes you best as a programmer?</label>
                 <select id="dropdown" class="option sm">
-                    <option value="option1">Option 1</option>
-                    <option value="option2">Option 2</option>
+                    <option value="option1">I'm an absolute newbie.</option>
+                    <option value="option2">I've dabbled with HTML and CSS and/or want to learn my first programming language.</option>
+                    <option value="option2">I've been learning my first programming language for 3 months.</option>
+                    <option value="option2">I've been programming for about a year.</option>
+                    <option value="option2">I've been programming for 2 to 5 years.</option>
+                    <option value="option2">I've been programming for more than 5 years.</option>
                 </select>
-                <label for="radio-1"><input id="radio-1" name="radio-set" type="radio" value="radio-1">
-                 Radio 1</label>
-                <label for="radio-2"><input id="radio-2" name="radio-set" type="radio" value="radio-2">
-                 Radio 2</label>
-                <label for="radio-3"><input type="radio" id="radio-3" name="radio-set" value="radio-3"> Radio 3</label>
-                <label for="checkbox-1"><input type="checkbox" id="checkbox-1" name="checkbox-set" value="checkbox-1">
-                 Checkbox 1</label>
-                <label for="checkbox-2"><input type="checkbox" id="checkbox-2" name="checkbox-set" value="checkbox-2">
-                 Checkbox 2</label>
-                <label for="checkbox-3"><input type="checkbox" id="checkbox-3" name="checkbox-set" value="checkbox-3">
-                 Checkbox 3</label>
+                <label for="focus-area">Which web development area would like to focus on?</label>
+                <div id="focus-area" class="container">
+                    <label for="radio-1"><input id="radio-1" name="radio-set" type="radio" value="radio-1">
+                        Frontend</label>
+                    <label for="radio-2"><input id="radio-2" name="radio-set" type="radio" value="radio-2">
+                        Backend</label>
+                    <label for="radio-3"><input type="radio" id="radio-3" name="radio-set" value="radio-3"> Full Stack</label>
+                </div>
+                <label for="checkboxes">Which topics are you interested in? <span class="sm">(Check all that apply)</span></label>
+                <div id="checkboxes" class="container">
+                    <label for="checkbox-1"><input type="checkbox" id="checkbox-1" name="checkbox-set" value="checkbox-1">
+                        HTML and CSS</label>
+                    <label for="checkbox-2"><input type="checkbox" id="checkbox-2" name="checkbox-set" value="checkbox-2">
+                        JavaScript</label>
+                    <label for="checkbox-3"><input type="checkbox" id="checkbox-3" name="checkbox-set" value="checkbox-3">
+                        Python</label>
+                    <label for="checkbox-4"><input type="checkbox" id="checkbox-4" name="checkbox-set" value="checkbox-4">
+                        Go</label>
+                    <label for="checkbox-5"><input type="checkbox" id="checkbox-5" name="checkbox-set" value="checkbox-5">
+                        Rust</label>
+                    <label for="checkbox-6"><input type="checkbox" id="checkbox-6" name="checkbox-set" value="checkbox-6">
+                        C#</label>
+                    <label for="checkbox-7"><input type="checkbox" id="checkbox-7" name="checkbox-set" value="checkbox-7">
+                        Other
+                        <input id="specify" class="input sm hidden" type="text" placeholder="Please specify" required></label>
+                </div>
+
+                <label id="textarea-label" for="textarea">Any comments or suggestions? <span class="sm">(optional)</span></label>
                 <textarea id="textarea" class="sm" placeholder="Enter your message here..."></textarea>
                 <button type="submit" id="submit" class="button">Submit</button>
             </form>
-            <p class="hidden">Thank you for your help!</p>
+            <p class="hidden">Success! Thank you for your help!</p>
         </main>
     </body>
 </html>
