@@ -37,6 +37,11 @@ body {
     -webkit-backdrop-filter: blur(4px);
 }
 
+#dropdown {
+    color: #251c2f;
+    accent-color: #FF0F7BFF;
+}
+
 #checkbox-7:checked ~ #specify {
     display: block;
 }
