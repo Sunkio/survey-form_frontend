@@ -38,13 +38,11 @@ body {
 }
 
 /* Added for Safari & DuckDuckGo on iPhone but still not 100% correct */
-/*
+
 #dropdown {
-    color: #251c2f;
-    accent-color: #FF0F7BFF;
-    border-color: #ff0f7b;
+    accent-color: #251c2f;
+    box-shadow: 0 0 10px 0 rgba(255, 255, 255, 0.25);
 }
-*/
 
 #checkbox-7:checked ~ #specify {
     display: block;
