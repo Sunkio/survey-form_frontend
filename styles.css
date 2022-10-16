@@ -37,6 +37,24 @@ body {
     -webkit-backdrop-filter: blur(4px);
 }
 
+#submit {
+    font-size: 1rem;
+    background-image: linear-gradient(to bottom right, #1DF547, #fff);
+    cursor: pointer;
+}
+
+#submit:active {
+    background-image: linear-gradient(to bottom right, #fff, #1DF547);
+}
+
+#checkbox-7:checked ~ #specify {
+    display: block;
+}
+
+#textarea {
+    font-family: var(--system-ui);
+    height: 5rem;
+}
 .sm {
     font-size: 0.8em;
 }
@@ -53,21 +71,35 @@ body {
     padding: 10px;
     width: 100%;
 }
-.input:focus, .option:focus, #textarea:focus {
-    outline: #f89b29 auto 2px;
-}
-.button {
-    font-size: 1rem;
-    background-image: linear-gradient(to bottom right, #1DF547, #fff);
+
+#submit:hover {
+    width: 94%;
+    margin: 10px auto;
 }
 
+.input:focus, .option:focus, #textarea:focus {
+    outline: #FF0F7BFF auto 2px;
+}
+
+.pink{
+    accent-color: #FF0F7BFF;
+}
 .hidden {
     display: none;
 }
+
 
 .container {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     margin: 10px 0;
+}
+
+.bottom-space {
+    margin-bottom: 20px;
+}
+
+.top-space {
+    margin-top: 10px;
 }
