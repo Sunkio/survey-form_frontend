@@ -32,7 +32,7 @@ body {
 input[type="text"],
 input[type="button"],
 input[type="submit"],
-input[type="email"] {
+input[type="email"] .input {
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
