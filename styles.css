@@ -13,10 +13,12 @@ html {
     line-height: 1.5;
     color: #251c2f;
     min-height: 100%;
+    /*
     -webkit-tap-highlight-color: rgba(0,0,0,0);
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
+     */
 }
 
 body {
@@ -29,6 +31,7 @@ body {
     -webkit-appearance: none;
     -webkit-border-radius: 0;
 }*/
+/*
 input[type="text"],
 input[type="button"],
 input[type="submit"],
@@ -38,6 +41,7 @@ input[type="email"] .input {
     appearance: none;
     -webkit-border-radius: 0;
 }
+*/
 
 #description, #title {
     padding: 0 10px;
