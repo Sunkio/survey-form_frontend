@@ -42,6 +42,7 @@ body {
 #dropdown {
     accent-color: #FF0F7BFF;
     box-shadow: 0 0 10px 0 rgba(255, 255, 255, 0.25);
+    color: #251c2f;
 }
 
 #checkbox-7:checked ~ #specify {
@@ -60,12 +61,14 @@ body {
 }
 
 #submit:hover {
-   width: 94%;
+    background-image: linear-gradient(to bottom right, #fff, #1DF547);
     margin: 10px auto;
+    font-weight: bold;
 }
 
 #submit:active {
-    background-image: linear-gradient(to bottom right, #fff, #1DF547);
+    background-image: linear-gradient(to bottom right, #1DF547, #1DF547);
+    box-shadow: 0 0 10px 0 rgba(29, 245, 71, 0.5);
 }
 
 .sm {
