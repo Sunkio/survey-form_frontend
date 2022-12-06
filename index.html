@@ -16,13 +16,13 @@
         </header>
         <main>
             <form id="survey-form" class="container">
-                <label id="name-label" for="name">Name</label>
+                <label id="name-label" for="name">Name*</label>
                 <input id="name" class="input sm bottom-space pink" type="text" placeholder="Enter your name" required>
-                <label id="email-label" for="email">Email</label>
+                <label id="email-label" for="email">Email*</label>
                 <input id="email" class="input sm bottom-space pink" type="email" placeholder="Enter your email" required>
                 <label id="number-label" for="number">Age <span class="sm">(optional)</span></label>
                 <input id="number" class="input sm bottom-space pink" type="number" min="0" max="140" placeholder="Enter your age">
-                <label id="dropdown-label" for="dropdown">Which option describes you best as a programmer?</label>
+                <label id="dropdown-label" for="dropdown">Which option describes you best as a programmer?*</label>
                 <select id="dropdown" class="option sm bottom-space">
                     <option disabled selected value>Select an option</option>
                     <option value="option1">I'm an absolute newbie.</option>
@@ -32,7 +32,7 @@
                     <option value="option2">I've been programming for 2 to 5 years.</option>
                     <option value="option2">I've been programming for more than 5 years.</option>
                 </select>
-                <label for="focus-area">Which web development area would like to focus on?</label>
+                <label for="focus-area">Which web development area would like to focus on?*</label>
                 <div id="focus-area" class="container bottom-space">
                     <label for="radio-1"><input class="pink" id="radio-1" name="radio-set" type="radio" value="radio-1">
                         Frontend</label>
@@ -41,7 +41,7 @@
                     <label for="radio-3"><input type="radio" id="radio-3" class="pink" name="radio-set" value="radio-3">
                         Full Stack</label>
                 </div>
-                <label for="checkboxes">Which topics are you interested in? <span class="sm">(Check all that apply)
+                <label for="checkboxes">Which topics are you interested in?* <span class="sm">(Check all that apply)
                     </span></label>
                 <div id="checkboxes" class="container bottom-space">
                     <label for="checkbox-1" class="checkbox"><input type="checkbox" id="checkbox-1" class="pink"
@@ -73,7 +73,9 @@
                 <textarea id="textarea" class="sm pink" placeholder="Enter your message here..."></textarea>
                 <div class="top-space">
                     <input type="submit" id="submit" value="Submit">
-
+                </div>
+                <div>
+                    <p class="sm">* - Only questions marked with an asterisk (*) are required.</p>
                 </div>
             </form>
         </main>
