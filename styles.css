@@ -40,7 +40,7 @@ body {
 /* Added for Safari & DuckDuckGo on iPhone but still not 100% correct */
 
 #dropdown {
-    accent-color: #251c2f;
+    accent-color: #FF0F7BFF;
     box-shadow: 0 0 10px 0 rgba(255, 255, 255, 0.25);
 }
 
@@ -60,7 +60,7 @@ body {
 }
 
 #submit:hover {
-    width: 94%;
+   width: 94%;
     margin: 10px auto;
 }
 
