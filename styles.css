@@ -25,7 +25,7 @@ body {
     background-image: linear-gradient(#ff0f7b, #f89b29);
 }
 
-input[type=text], input[type=button] {
+input[type=name], input[type=button] {
     -webkit-appearance: none;
     -webkit-border-radius: 0;
 }
