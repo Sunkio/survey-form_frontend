@@ -65,6 +65,7 @@ input[type="email"] .input {
     accent-color: #FF0F7BFF;
     box-shadow: 0 0 10px 0 rgba(255, 255, 255, 0.25);
     color: #251c2f;
+    background-color: white;
 }
 
 #checkbox-7:checked ~ #specify {
@@ -77,6 +78,7 @@ input[type="email"] .input {
 }
 
 #submit {
+    color: #251c2f !important;
     font-size: 1rem;
     background-image: linear-gradient(to bottom right, #1DF547, #fff);
     cursor: pointer;
@@ -85,7 +87,6 @@ input[type="email"] .input {
 #submit:hover {
     background-image: linear-gradient(to bottom right, #fff, #1DF547);
     margin: 10px auto;
-    font-weight: bold;
 }
 
 #submit:active {
@@ -102,7 +103,7 @@ input[type="email"] .input {
 }
 
 .pink{
-    accent-color: #FF0F7BFF;
+    accent-color: #FF0F7BFF !important;
 }
 
 .bottom-space {
