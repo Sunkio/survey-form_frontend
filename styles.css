@@ -159,7 +159,7 @@ textarea:focus {
     /*outline: none;*/
     accent-color: #FF0F7BFF !important;
     border-color: #ff0f7b !important;
-    box-shadow: 0 0 10px #1DF547 !important;
+    /*box-shadow: 0 0 10px #1DF547 !important;*/
     -webkit-tap-highlight-color: transparent;
     /*box-shadow: none !important;*/
 
