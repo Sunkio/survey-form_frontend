@@ -154,6 +154,7 @@ select:focus,
 textarea:focus {
     /*outline: #FF0F7BFF auto 2px;*/
     accent-color: #FF0F7BFF;
+    box-shadow: none;
 
 }
 
