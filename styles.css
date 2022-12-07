@@ -132,6 +132,7 @@ input[type=search],
 input[type=tel],
 input[type=text],
 input[type=url],
+#textarea,
 select,
 textarea {
     border: 1px solid #251c2f;
@@ -152,6 +153,7 @@ input[type=search]:focus,
 input[type=tel]:focus,
 input[type=text]:focus,
 input[type=url]:focus,
+#textarea:focus,
 select:focus,
 textarea:focus {
     outline: #FF0F7BFF 10px !important;
