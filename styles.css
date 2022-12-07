@@ -155,6 +155,7 @@ textarea:focus {
     outline: #FF0F7BFF auto 2px;
     accent-color: #FF0F7BFF;
     border-color: #ff0f7b;
+    box-shadow: #ff0f7b 0 0 10px;
 
 }
 
