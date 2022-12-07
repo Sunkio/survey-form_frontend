@@ -175,10 +175,10 @@ textarea:focus {
     width: 100%;
 }
 
-.input:focus, .option:focus, #textarea:focus {
+/*.input:focus, .option:focus, #textarea:focus {
     outline: #FF0F7BFF auto 2px;
 }
-
+*/
 /* -> end of test */
 
 
