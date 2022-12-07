@@ -59,10 +59,41 @@ input[type="email"] .input {
     -webkit-backdrop-filter: blur(4px);
 }
 
-/* Added for Safari & DuckDuckGo on iPhone but still not 100% correct */
+/* Test for ios: */
+input[type=date],
+input[type=email],
+input[type=number],
+input[type=password],
+input[type=search],
+input[type=tel],
+input[type=text],
+input[type=url],
+select,
+textarea {
+    width:100%;
+    border:1px solid #666;
+    border-radius:3px;
+    padding:.5rem 1rem;
+    -webkit-transition:all .3s;
+    -o-transition:all .3s;
+    transition:all .3s;
+}
+input[type=date]:focus,
+input[type=email]:focus,
+input[type=number]:focus,
+input[type=password]:focus,
+input[type=search]:focus,
+input[type=tel]:focus,
+input[type=text]:focus,
+input[type=url]:focus,
+select:focus,
+textarea:focus {
+    border-color:#333;
+}
+/* -> end of test */
 
 #dropdown {
-    accent-color: #FF0F7BFF;
+    /*accent-color: #FF0F7BFF;*/
     box-shadow: 0 0 10px 0 rgba(255, 255, 255, 0.25);
     color: #251c2f;
     background-color: white;
@@ -78,7 +109,7 @@ input[type="email"] .input {
 }
 
 #submit {
-    color: #251c2f !important;
+    color: #251c2f;
     font-size: 1rem;
     background-image: linear-gradient(to bottom right, #1DF547, #fff);
     cursor: pointer;
@@ -103,7 +134,7 @@ input[type="email"] .input {
 }
 
 .pink{
-    accent-color: #FF0F7BFF !important;
+    accent-color: #FF0F7BFF;
 }
 
 .bottom-space {
