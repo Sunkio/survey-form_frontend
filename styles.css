@@ -153,13 +153,12 @@ input[type=search]:focus,
 input[type=tel]:focus,
 input[type=text]:focus,
 input[type=url]:focus,
-#textarea:focus,
 select:focus,
 textarea:focus {
     outline: #FF0F7BFF 10px !important;
     /*outline: none;*/
-    accent-color: #FF0F7BFF;
-    border-color: #ff0f7b;
+    accent-color: #FF0F7BFF !important;
+    border-color: #ff0f7b !important;
     box-shadow: 0 0 10px #1DF547 !important;
     -webkit-tap-highlight-color: transparent;
     /*box-shadow: none !important;*/
