@@ -154,8 +154,8 @@ input[type=text]:focus,
 input[type=url]:focus,
 select:focus,
 textarea:focus {
-    /*outline: #FF0F7BFF 10px !important;*/
-    outline: none;
+    outline: #FF0F7BFF 10px !important;
+    /*outline: none;*/
     accent-color: #FF0F7BFF;
     border-color: #ff0f7b;
     box-shadow: 0 0 10px #1DF547 !important;
