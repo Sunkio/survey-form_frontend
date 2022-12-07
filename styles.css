@@ -31,7 +31,7 @@ body {
     -webkit-appearance: none;
     -webkit-border-radius: 0;
 }*/
-
+/*
 input[type="text"]:focus,
 input[type="button"]:focus,
 input[type="submit"]:focus,
@@ -42,9 +42,9 @@ input[type="email"]:focus, select, textarea {
     -moz-appearance: none;
     appearance: none;
     -webkit-border-radius: 0;
-    */
-}
 
+}
+*/
 #description, #title {
     padding: 0 10px;
     text-align: center;
@@ -78,22 +78,6 @@ input[type="email"]:focus, select, textarea {
     height: 5rem;
 }
 
-#submit {
-    color: #251c2f;
-    font-size: 1rem;
-    background-image: linear-gradient(to bottom right, #1DF547, #fff);
-    cursor: pointer;
-}
-
-#submit:hover {
-    background-image: linear-gradient(to bottom right, #fff, #1DF547);
-    margin: 10px auto;
-}
-
-#submit:active {
-    background-image: linear-gradient(to bottom right, #1DF547, #1DF547);
-    box-shadow: 0 0 10px 0 rgba(29, 245, 71, 0.5);
-}
 
 .sm {
     font-size: 0.8em;
@@ -122,8 +106,6 @@ input[type="email"]:focus, select, textarea {
     margin: 10px 0;
 }
 
-
-/* Test for ios: */
 input[type=date],
 input[type=email],
 input[type=number],
@@ -145,6 +127,7 @@ textarea {
     -o-transition:all .3s;
     transition:all .3s;
 }
+
 input[type=date]:focus,
 input[type=email]:focus,
 input[type=number]:focus,
@@ -156,31 +139,44 @@ input[type=url]:focus,
 select:focus,
 textarea:focus {
     outline: #FF0F7BFF 10px !important;
-    /*outline: none;*/
     accent-color: #FF0F7BFF !important;
     border-color: #ff0f7b !important;
-    /*box-shadow: 0 0 10px #1DF547 !important;*/
     -webkit-tap-highlight-color: transparent;
-    /*box-shadow: none !important;*/
-
 }
 
-
-/*.input, .option, #textarea,*/ #submit {
+#submit {
     border: 1px solid #251c2f;
     border-radius: 5px;
     display: block;
     margin: 10px 0;
     padding: 10px;
     width: 100%;
+    color: #251c2f;
+    font-size: 1rem;
+    background-image: linear-gradient(to bottom right, #1DF547, #fff);
+    cursor: pointer;
 }
 
-/*.input:focus, .option:focus, #textarea:focus {
-    outline: #FF0F7BFF auto 2px;
+/*
+#submit {
+
 }
 */
-/* -> end of test */
+#submit:hover {
+    background-image: linear-gradient(to bottom right, #fff, #1DF547);
+    margin: 10px auto;
+    border-color: #ff0f7b !important;
+    color: #ff0f7b;
+    font-weight: bold;
+}
 
+#submit:active {
+    background-image: linear-gradient(to bottom right, #1DF547, #1DF547);
+    /*box-shadow: 0 0 10px 0 rgba(29, 245, 71, 0.5);*/
+    border-color: #ff0f7b !important;
+    color: #ff0f7b;
+    font-weight: bold;
+}
 
 .hidden {
     display: none;
