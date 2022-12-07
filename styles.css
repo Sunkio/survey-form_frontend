@@ -168,6 +168,9 @@ input[type=submit]:hover {
     border-color: #ff0f7b !important;
     color: #ff0f7b;
     font-weight: bold;
+    outline: #FF0F7BFF 10px !important;
+    accent-color: #FF0F7BFF !important;
+    -webkit-tap-highlight-color: transparent;
 }
 
 input[type=submit]:active {
@@ -176,6 +179,9 @@ input[type=submit]:active {
     border-color: #ff0f7b !important;
     color: #ff0f7b;
     font-weight: bold;
+    outline: #FF0F7BFF 10px !important;
+    accent-color: #FF0F7BFF !important;
+    -webkit-tap-highlight-color: transparent;
 }
 
 .hidden {
