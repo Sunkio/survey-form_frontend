@@ -31,17 +31,19 @@ body {
     -webkit-appearance: none;
     -webkit-border-radius: 0;
 }*/
-/*
-input[type="text"],
-input[type="button"],
-input[type="submit"],
-input[type="email"] .input {
+
+input[type="text"]:focus,
+input[type="button"]:focus,
+input[type="submit"]:focus,
+input[type="email"]:focus, select, textarea {
+    outline: 0
+   /*
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
     -webkit-border-radius: 0;
+    */
 }
-*/
 
 #description, #title {
     padding: 0 10px;
