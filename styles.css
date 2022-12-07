@@ -73,6 +73,10 @@ input[type="email"]:focus, select, textarea {
     background-color: white;
 }
 
+#specify {
+    display: none;
+}
+
 #checkbox-7:checked ~ #specify {
     display: block;
 }
@@ -161,11 +165,6 @@ input[type=submit] {
     cursor: pointer;
 }
 
-/*
-#submit {
-
-}
-*/
 input[type=submit]:hover {
     background-image: linear-gradient(to bottom right, #fff, #1DF547);
     margin: 10px auto;
@@ -186,8 +185,4 @@ input[type=submit]:active {
     outline: #FF0F7BFF 10px !important;
     accent-color: #FF0F7BFF !important;
     -webkit-tap-highlight-color: transparent;
-}
-
-.hidden {
-    display: none;
 }
