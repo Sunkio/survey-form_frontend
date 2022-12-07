@@ -144,7 +144,7 @@ textarea:focus {
     -webkit-tap-highlight-color: transparent;
 }
 
-#submit {
+input[type=submit] {
     border: 1px solid #251c2f;
     border-radius: 5px;
     display: block;
@@ -162,7 +162,7 @@ textarea:focus {
 
 }
 */
-#submit:hover {
+input[type=submit]:hover {
     background-image: linear-gradient(to bottom right, #fff, #1DF547);
     margin: 10px auto;
     border-color: #ff0f7b !important;
@@ -170,7 +170,7 @@ textarea:focus {
     font-weight: bold;
 }
 
-#submit:active {
+input[type=submit]:active {
     background-image: linear-gradient(to bottom right, #1DF547, #1DF547);
     /*box-shadow: 0 0 10px 0 rgba(29, 245, 71, 0.5);*/
     border-color: #ff0f7b !important;
