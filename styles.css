@@ -160,7 +160,7 @@ textarea:focus {
     border-color: #ff0f7b;
     /*box-shadow: #ff0f7b 0 0 10px;
     -webkit-tap-highlight-color: transparent;*/
-    box-shadow: none;
+    box-shadow: none !important;
 
 }
 
